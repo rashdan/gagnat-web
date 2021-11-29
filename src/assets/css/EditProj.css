@@ -1,0 +1,57 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: #333;
+}
+.add-project-4
+
+{
+    margin: 5% 20%;
+    width: 10%;
+    padding: 10px;
+    background: transparent;
+    color: #333;
+    border: 1px solid #333;
+    border-radius:5px;
+}
+.main-div-4
+{
+    margin: 0 20%;
+    padding: 5px;
+}
+.input-field-4
+{
+    width: 50%;
+    display: inline-block;
+    padding: 10px;
+    margin: 1% 1% 0 0;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+.edit-btn-4
+{
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin: 5px 10px 0px 0px;
+    background-color: #333;
+    border: none;
+    border-radius:5px;
+    color: #fff;
+}
+
+.edit-btn-4:hover
+{
+    display: inline-block;
+    width: 10%;
+    padding: 10px;
+    margin: 5px 10px 0px 0px;
+    background-color: #444;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    color: #fff;
+}
