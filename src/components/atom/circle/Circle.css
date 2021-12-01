@@ -1,0 +1,8 @@
+.empty-circle
+{
+    height: 40px;
+    width: 40px;
+    border: 1px solid #333;
+    background: transparent;
+    border-radius: 50%;
+}
