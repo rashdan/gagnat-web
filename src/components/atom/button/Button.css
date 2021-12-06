@@ -1,15 +1,10 @@
-*
-{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-}
-.outlined-btn button 
-{
-    background: transparent;
-    border: 1px solid #333;
-    border-radius: 5px;
-    width: 145px;
-    padding: 10px;
+.btn_container {
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 47px;
+    border: 2px solid #4F341F;
+    border-radius: 10px;
 }

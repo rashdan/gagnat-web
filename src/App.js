@@ -23,12 +23,16 @@ import Circle from './components/atom/circle/Circle'
 import './components/atom/circle/Circle.css'
 import Category from './components/molecule/category/Category'
 import './components/molecule/category/Category.css'
+import Member from './pages/Member-registration/registration'
+import Partner from './pages/Partner-registration/registration'
 
 
 function App() {
   return (
     <div className="App">
-      <Category/>
+      {/* <Member/> */}
+      {/* <Partner/> */}
+      {/* <Category/> */}
       {/* <Circle/> */}
       {/* <Box/> */}
       {/* <Add_btn/> */}

@@ -1,21 +1,14 @@
-*
-{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: poppins;
-    color: #333;
-}
+
 .main-login-1
 {
-    margin: 50px;
+    /* margin: 50px; */
     margin-left: 350px;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: start;
-    height: 100vh;
+    height: 100%;
 }
 .form-1
 {

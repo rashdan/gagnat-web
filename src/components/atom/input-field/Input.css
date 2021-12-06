@@ -1,15 +1,11 @@
-*
-{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat';
-}
-.input-field input
-{
-    width: 30%;
-    padding: 8px;
-    border: 1px solid #333;
-    border-radius: 5px;
-    background: transparent;
+.input-1  {
+    height: 23%;
+    color: #000000;
+    width: 90%;
+    border: none;
+    background-color: #F2F2F2;
+    margin-top: 2%;
+    font-size: 30px;
+    font-family: Pragati Narrow;
+    font-weight: 400;
 }
