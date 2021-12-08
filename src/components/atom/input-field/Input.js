@@ -1,9 +1,12 @@
 import React from 'react'
-import './Input.css';
 
 const Input = () => {
     return (
-        <input type="text" className="input-1" placeholder="&nbsp;&nbsp;&nbsp;Namn*"></input>
+        <>
+        <div className="input-field">
+            <input type="email"  placeholder="Enter Your Email"/>
+        </div>
+        </>
     )
 }
 

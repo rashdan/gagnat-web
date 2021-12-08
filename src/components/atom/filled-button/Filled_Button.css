@@ -1,0 +1,24 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Greycliff CF";
+}
+.filled-btn button 
+{
+    background-color: #629479;
+    border: none;
+    margin: 10px 3px;
+    border-radius: 5px;
+    width: 155px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+}
+.filled-btn button:hover
+{
+    cursor: pointer;
+    background-color: #4a8565;
+}

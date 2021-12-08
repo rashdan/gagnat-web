@@ -1,0 +1,16 @@
+.faq-question-1
+{
+    margin: 50px 150px;
+    width: 80%;
+    font-weight: 700;
+    display: flex;
+    flex-wrap: wrap;
+}
+.arrow-down-1
+{
+    margin-left: 510px;
+}
+.arrow-down-1 img
+{
+    width:80%;
+}

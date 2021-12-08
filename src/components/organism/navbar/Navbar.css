@@ -1,46 +1,154 @@
-*
-{
-    margin:0;
+
+*{
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat';
+    font-family: "Greycliff CF";
+    color: #2c2c2c;
 }
-.main-nav
+.logo-gag
 {
     display: flex;
     flex-wrap: wrap;
-    background-color: #212121;
-    width: 100%;
-    height: 80px;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.logo
+.logo-gag img
 {
     width: 10%;
 }
-.logo-inner
+.inner-logo
 {
-    width: 20%;
-    margin: 5% 0 5% 40%;
+    position: absolute;
+    top: 40px;
 }
-.main-nav ul
+navbar.nav-bar
+{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.nav-item
 {
     display: flex;
 }
-.main-nav ul li
+.nav-primary
 {
+    display: flex;
+    margin: 0 150px 0 80px;
+}
+.nav-secondary
+{
+    display: flex;
+    margin: 0 80px  0 150px;
+}
+.nav-item ul li
+{
+    margin: 0 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-item ul li a
+{
+    text-decoration: none;
     list-style: none;
 }
-.main-nav ul li a
+.nav-item ul li a:hover
 {
-    padding: 15px;
-    color: #fff;
+    font-weight: 800;
+    color: #629479;
 }
-.main-nav ul li a:hover
+
+/* .wrapper
 {
-    font-weight: 600;
+    height: 100px;
+    border: 1px solid black;
+}
+.inner-bg-img
+{
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.nav
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 90px;
+}
+.nav ul
+{
+    display: flex;
+}
+.nav ul li
+{
+    list-style-type: none;
+    padding: 20px;
+    margin: 0 40px;
+}
+.nav ul li:hover
+{
+    font-weight: 700;
+    color: #629479;
     cursor: pointer;
-    text-decoration: underline;
-
 }
 
+.nav ul li:nth-child(3)
+{
+    margin-left: 250px;
+}
+.logo
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.inner-logo
+{
+    margin: 40px 0;
+    width: 10%;
+}
+ .side-logo
+{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    display: flex;
+    width: 40%;
+}
+.inner-logo-icon
+{
+    width: 30%;
+}
+.body-type
+{
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 550px;
+}
+.body-type h2
+{
+    font-size: 30px;
+}
+.body-type p
+{
+    margin: 10px 0;
+}
+.btns
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  */

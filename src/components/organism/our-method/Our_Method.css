@@ -1,0 +1,31 @@
+.our-method-2
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: transparent;
+}
+.methods-2-1
+{
+    margin: 20px;
+    background-color: #F2F2F2;
+    display: flex;
+}
+.methods-2-1 h2
+{
+    font-size: 30px;
+}
+.head-methods-2-1
+{
+    margin: 20px;
+    display: flex;
+}
+.move-2-1
+{
+    padding: 20px;
+}
+.move-2-1 p
+{
+    margin: 10px 0;
+    line-height: 24px;
+}

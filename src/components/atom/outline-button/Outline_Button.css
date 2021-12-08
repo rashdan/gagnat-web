@@ -1,0 +1,25 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Greycliff CF";
+}
+.outline-btn button 
+{
+    background:transparent;
+    border: 2px solid #629479;
+    margin: 10px 5px;
+    border-radius: 5px;
+    width: 155px;
+    padding: 8px;
+    color: #212121;
+    font-weight: 700;
+    font-size: 12px;
+}
+.outline-btn button:hover
+{
+    cursor: pointer;
+    color: #fff;
+    background-color: #629479;
+}

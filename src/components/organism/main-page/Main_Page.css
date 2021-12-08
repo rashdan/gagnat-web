@@ -1,0 +1,308 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Greycliff CF";
+    color: #2c2c2c;
+}
+.wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.inner-bg-img
+{
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.nav-main-1
+{
+    position: absolute;
+    top: 0;
+}
+.nav-main-1 ul
+{
+    display: flex;
+}
+.side-logo
+{
+    position: absolute;
+    top: 150px;
+    left: 230px;
+    display: flex;
+    width: 40%;
+}
+.inner-logo-icon
+{
+    width: 30%;
+}
+.body-type
+{
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    left: 550px;
+}
+.body-type h2
+{
+    font-size: 30px;
+}
+.body-type p
+{
+    margin: 10px 0;
+}
+.btns
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-wrapper
+{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-wrapper h2
+{
+    font-size: 30px;
+}
+.stolar
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+}
+.stolar h2
+{
+    margin: 25px 0 0 150px;
+    font-size: 30px;
+}
+.stolar p
+{
+    margin: 10px 0 0 150px;
+    line-height: 24px;
+}
+.stolar-img
+{
+    width: 30%;
+}
+.inner-stolar
+{
+    width: 80%;
+    margin: -300px 0px 0px 900px;
+}
+.cta
+{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cta-1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.tagline
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container-1
+{
+    margin: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 80px;
+    background-color: #212121;
+}
+.tagline h3
+{
+    color: #fff;
+}
+.gag-values
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.inner-bg-img-2
+{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.gag-values h2
+{
+    font-size: 30px;
+    position: relative;
+    top: -600px;
+}
+.gag-val-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -550px;
+    justify-content: center;
+    width: 100%;
+}
+.lamp
+{
+    position: relative;
+    top:-550px;
+    margin: 50px 150px;
+}
+.methods
+{
+    top: -510px;
+    position: relative;
+    background-color: #F2F2F2;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.methods h2
+{
+    font-size: 30px;
+}
+.head-methods
+{
+    position: relative;
+    top:-550px;
+    margin: -40px 50px;
+}
+.move
+{
+    padding: 10px;
+}
+.move p
+{
+    margin: 10px 0;
+    line-height: 24px;
+}
+.trash
+{
+    position: relative;
+    bottom: 500px;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.trash-content
+{
+    position: relative;
+    top: -1550px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px 700px;
+
+}
+.trash-content h2
+{
+    margin: 10px 0;
+    font-size: 30px;
+}
+.trash-content p
+{
+    line-height: 24px;
+    margin: 10px 0;
+}
+.trash-img img
+{
+    position: relative;
+    top:-50px;
+    width: 100%;
+}
+.trash-can img
+{
+    position: relative;
+    top: -1550px;
+    width: 25%;
+    margin: 0 200px;
+}
+.trash-content-1
+{
+    position: relative;
+    top: -1550px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 50px 700px;
+}
+.trash-content-1 h2
+{
+    margin: 0 0 0 210px;
+    font-size: 30px;
+    text-align: right;
+
+}
+.trash-content-1 p
+{
+    margin: 10px 0;
+    line-height: 24px;
+    text-align: right;
+}
+.customer-review h2
+{
+    position: relative;
+    top: -1350px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin: 0 150px;
+}
+.dash
+{
+    height: 5px;
+    width: 320px;
+    position: relative;
+    top: -1340px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #E95C06;
+    margin: 0 150px;
+}
+.customer-feedback
+{
+    top: -1140px;
+    display: flex;
+    position: relative;
+}
+.footer
+{
+    top: -1140px;
+    display: flex;
+    position: relative;
+}
