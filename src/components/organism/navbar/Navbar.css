@@ -6,42 +6,50 @@
     font-family: "Greycliff CF";
     color: #2c2c2c;
 }
-.logo-gag
+.nav-bar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.nav-item a
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-.logo-gag img
+.nav-item a img
 {
-    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
-.inner-logo
-{
-    position: absolute;
-    top: 40px;
-}
+
 navbar.nav-bar
 {
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .nav-item
 {
+    margin: 30px 0;
+    justify-content: center;
+    align-items: center;
     display: flex;
 }
 .nav-primary
 {
     display: flex;
-    margin: 0 150px 0 80px;
 }
 .nav-secondary
 {
     display: flex;
-    margin: 0 80px  0 150px;
 }
 .nav-item ul li
 {
@@ -57,7 +65,7 @@ navbar.nav-bar
 .nav-item ul li a:hover
 {
     font-weight: 800;
-    color: #629479;
+    color: #222222;
 }
 
 /* .wrapper

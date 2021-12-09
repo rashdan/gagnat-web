@@ -9,19 +9,19 @@ const Navbar = () => {
     return (
         <>
             {/* <img src={Bg_Img} className="inner-bg-img" alt="" /> */}
-            <navbar className="nav-bar">
-            <div className="logo-gag">
-                    <img src={Main_Logo} className="inner-logo" alt="" />
-                    <div className="nav-item">
-                        <ul className="nav-primary">
-                            <li><Link to="/method">VÅR METOD</Link></li>
-                            <li><Link to="/blog">BLOG</Link></li>
-                        </ul>
-                        <ul className="nav-secondary">
-                            <li><Link to="/contact">KONTAKT</Link></li>
-                            <li><Link to="/about">OM OSS</Link></li>
-                        </ul>
-                    </div>
+            <navbar className="nav-bar">    
+                <div className="nav-item">
+                    <ul className="nav-primary">
+                        <li><Link to="/method">VÅR METOD</Link></li>
+                        <li><Link to="/blog">BLOG</Link></li>
+                    </ul>
+                    <Link to="/">
+                        <img src={Main_Logo} alt="" />
+                    </Link>
+                    <ul className="nav-secondary">
+                        <li><Link to="/contact">KONTAKT</Link></li>
+                        <li><Link to="/about">OM OSS</Link></li>
+                    </ul>
                 </div>
 
             </navbar>

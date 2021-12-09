@@ -1,5 +1,5 @@
 import React from 'react'
-import Person_1 from '../../../../assets/imgs/person_1.jpg'
+import Person_1 from '../../../assets/imgs/person_1.jpg'
 
 const Feedback_Card = () => {
     return (
