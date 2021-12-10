@@ -3,12 +3,19 @@ import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 import Home from './pages/home-page/Home'
 import './pages/home-page/Home.css'
+
+import Main_Page from './components/organism/main-page/Main_Page'
+import './components/organism/main-page/Main_Page.css'
+
 import Method from './pages/methods/Method'
 import './pages/methods/Method.css'
+
 import Blog from './pages/blog/Blog'
 import './pages/blog/Blog.css'
+
 import Contact from './pages/contact/Contact'
 import './pages/contact/Contact.css'
+
 import About from './pages/about/About'
 import './pages/about/About.css'
 

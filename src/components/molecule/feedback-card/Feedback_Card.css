@@ -3,9 +3,9 @@
     border: 1px solid #212121;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
+    width: 25%;
     height: 220px;
-    margin: 60px;
+    margin: 30px;
 }
 .card-main-content
 {

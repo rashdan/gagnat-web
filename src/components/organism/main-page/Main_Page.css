@@ -6,6 +6,13 @@
     font-family: "Greycliff CF";
     color: #2c2c2c;
 }
+.main-page
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+}
 .wrapper
 {
     display: flex;
@@ -25,10 +32,6 @@
 {
     position: absolute;
     top: 0;
-}
-.nav-main-1 ul
-{
-    display: flex;
 }
 .side-logo
 {
@@ -64,9 +67,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
-.section-wrapper
+.main-partner-wrapper
 {
-
+    height: 250px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -78,35 +81,39 @@
 {
     font-size: 30px;
 }
-.stolar
+.main-stolar-wrapper
 {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    width: 60%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
-.stolar h2
+.main-stolar-content
 {
-    margin: 25px 0 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+}
+.main-stolar-wrapper h2
+{
+    margin: 10px 0;
     font-size: 30px;
 }
-.stolar p
+.main-stolar-wrapper p
 {
-    margin: 10px 0 0 150px;
     line-height: 24px;
 }
 .stolar-img
 {
-    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 20%;
 }
-.inner-stolar
+.main-section-btns
 {
-    width: 80%;
-    margin: -300px 0px 0px 900px;
-}
-.cta
-{
-    margin: 30px 0;
+    margin: 50px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -144,76 +151,46 @@
 }
 .gag-values
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-.inner-bg-img-2
-{
-    height: 800px;
+    background: url('../../../assets/imgs/bg_img_2.png');
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
-}
-.gag-values h2
-{
-    font-size: 30px;
-    position: relative;
-    top: -600px;
-}
-.gag-val-content
-{
+    height: 750px;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
-    top: -550px;
-    justify-content: center;
-    width: 100%;
-}
-.lamp
-{
-    position: relative;
-    top:-550px;
-    margin: 50px 150px;
-}
-.methods
-{
-    top: -510px;
-    position: relative;
-    background-color: #F2F2F2;
-    padding: 10px;
-    margin: 50px;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
-.methods h2
+
+.gag-values h2
 {
     font-size: 30px;
 }
+.gag-val-content
+{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gag-circle
+{
+    margin: 30px 0;
+    display: flex;
+}
+
 .head-methods
 {
-    position: relative;
-    top:-550px;
-    margin: -40px 50px;
-}
-.move
-{
-    padding: 10px;
-}
-.move p
-{
-    margin: 10px 0;
-    line-height: 24px;
+    width: 100%;
+    height: 350px;
 }
 .trash
 {
-    position: relative;
-    bottom: 500px;
-    height: 100%;
+    background: url('../../../assets/imgs/bg_img_3.png');
     width: 100%;
+    height: 1200px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,8 +198,6 @@
 }
 .trash-content
 {
-    position: relative;
-    top: -1550px;
     display: flex;
     flex-wrap: wrap;
     width: 40%;
@@ -239,23 +214,14 @@
     line-height: 24px;
     margin: 10px 0;
 }
-.trash-img img
-{
-    position: relative;
-    top:-50px;
-    width: 100%;
-}
 .trash-can img
 {
     position: relative;
-    top: -1550px;
     width: 25%;
     margin: 0 200px;
 }
 .trash-content-1
 {
-    position: relative;
-    top: -1550px;
     display: flex;
     flex-wrap: wrap;
     width: 40%;
@@ -274,16 +240,19 @@
     line-height: 24px;
     text-align: right;
 }
+.customer-review
+{
+    width: 100%;
+    height: 450px;
+}
 .customer-review h2
 {
-    position: relative;
-    top: -1350px;
     display: flex;
     flex-wrap: wrap;
-    width: 30%;
-    margin: 0 150px;
+    width: 20%;
+    margin: 50px 100px;
 }
-.dash
+/* .dash
 {
     height: 5px;
     width: 320px;
@@ -293,16 +262,10 @@
     flex-wrap: wrap;
     background-color: #E95C06;
     margin: 0 150px;
-}
+} */
 .customer-feedback
 {
-    top: -1140px;
+    justify-content: center;
+    align-items: center;
     display: flex;
-    position: relative;
-}
-.footer
-{
-    top: -1140px;
-    display: flex;
-    position: relative;
 }
