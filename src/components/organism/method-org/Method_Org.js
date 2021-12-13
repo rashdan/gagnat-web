@@ -12,6 +12,8 @@ import '../../../components/organism/faq/Faq.css'
 import Partners from '../../../assets/imgs/partners.png'
 import Footer from '../../../components/organism/footer/Footer'
 import '../../../components/organism/footer/Footer.css'
+import Faqs from '../../../components/molecule/faqs/Faqs'
+import '../../../components/molecule/faqs/Faqs.css'
 
 const Method_Org = () => {
     return (
@@ -43,12 +45,7 @@ const Method_Org = () => {
             </section>
             <section className="Faq-section">
                 <h2>FAQ</h2>
-                <Faq/>
-                <Faq/>
-                <Faq/>
-                <Faq/>
-                <Faq/>
-                <Faq/>
+                <Faqs/>
             </section>
             <section className="partners-2">
                 <h2>Tidigare partners</h2>

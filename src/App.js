@@ -19,7 +19,8 @@ import './pages/contact/Contact.css'
 import About from './pages/about/About'
 import './pages/about/About.css'
 
-
+import Faqs from './components/molecule/faqs/Faqs'
+import './components/molecule/faqs/Faqs.css'
 
 function App() {
   return (

@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'outfit';
+}
+.accordian-wrapper
+{
+    height: 500px;
+    margin: 20px 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordian
+{
+    width:100%;
+}
+.item
+{
+    border: 1px solid #222;
+    border-radius: 5px;
+    background-color: #F2F1F1;
+    margin: 10px 0;
+    padding: 15px;
+}
+.title
+{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title h5
+{
+    margin: 10px 0;
+}
+.content
+{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
+.content.show
+{
+    height: auto;
+    max-height: 500px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+}
