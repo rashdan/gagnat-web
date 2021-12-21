@@ -5,6 +5,7 @@ import Insta_icon from '../../../assets/icons/instagram.svg'
 import In_icon from '../../../assets/icons/LinkedIn.svg'
 import Input from '../../../components/atom/input-field/Input'
 import '../../../components/atom/input-field/Input.css'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -24,10 +25,13 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="links">
-                    <p>Om oss</p>
-                    <p>Vår Metod</p>
-                    <p>Blogg</p>
-                    <p>FAQ</p>
+                    <ul >
+                        <li onClick={() => { window.location.href = '/about' }} >Om oss</li>
+                        <li onClick={() => { window.location.href = '/method' }} >Vår Metod</li>
+                        <li onClick={() => { window.location.href = '/blog' }} >Blogg</li>
+                        <li onClick={() => { window.location.href = '/method' }} >FAQ</li>
+                    </ul>
+                    
                 </div>
                 <div className="news-letter">
                     <p>Håll dig uppdaterad
