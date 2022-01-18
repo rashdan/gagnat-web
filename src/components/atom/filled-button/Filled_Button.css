@@ -11,11 +11,11 @@
     border: none;
     margin: 10px 3px;
     border-radius: 5px;
-    width: 155px;
-    padding: 10px;
+    width: 220px;
+    height: 45px;
     color: #fff;
-    font-weight: 700;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .filled-btn button:hover
 {

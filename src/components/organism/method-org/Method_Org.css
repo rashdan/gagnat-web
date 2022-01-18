@@ -20,9 +20,20 @@
     width: 80%;
     margin: 100px 220px;
 }
+.our-method-head
+{
+    display: flex;
+    flex-direction: column;
+}
+.our-method-dash
+{
+    height: 10px;
+    width: 285px;
+    background-color: #F6E7DB;
+}
 .method-section-1 h2
 {
-    font-size: 30px;
+    font-size: 60px;
 }
 .partner-member-1
 {
@@ -35,10 +46,15 @@
     display: flex;
     flex-direction: column;
 }
+.partner-1 h3
+{
+    font-size: 48px;
+}
 .partner-1 p
 {
+    font-size: 20px;
     margin: 10px 0;
-    line-height: 24px;
+    line-height: 30px;
 }
 .member-1
 {
@@ -47,24 +63,115 @@
     display: flex;
     flex-direction: column;
 }
+.member-1 h3
+{
+    font-size: 48px;
+}
 .member-1 p
 {
+    font-size: 20px;
     margin: 10px 0;
-    line-height: 24px;
+    line-height: 30px;
 }
 .method-section-2
 {
+    background-image: url('../../../assets/imgs/all-methods.png');
     width: 100%;
-    height: 300px;
+    height: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.method-title-1
+{
+    width: 20%;
+    margin: 100px 320px;
+}
+.method-title-1 h3
+{
+    font-size: 24px;
+}
+.method-title-1 p
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+.method-title-2
+{
+    width: 20%;
+    margin: -150px 800px;
+}
+.method-title-2 h3
+{
+    font-size: 24px;
+}
+.method-title-2 p
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+.method-title-3
+{
+    width: 20%;
+    margin: 320px 320px;
+}
+.method-title-3 h3
+{
+    font-size: 24px;
+}
+.method-title-3 p
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+.method-title-4
+{
+    width: 20%;
+    margin: -350px 800px;
+}
+.method-title-4 h3
+{
+    font-size: 24px;
+}
+.method-title-4 p
+{
+    font-size: 20px;
+    line-height: 30px;
+}
+.method-title-5
+{
+    width: 20%;
+    margin: 550px 380px;
+}
+.method-title-5 h3
+{
+    font-size: 24px;
+}
+.method-title-5 p
+{
+    font-size: 20px;
+    line-height: 30px;
 }
 .method-cta-2
 {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
+    height: 250px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.faq-bg-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../../assets/imgs/partner_bg_1.png');
+    width: 100%;
+    height: 1300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .Faq-section
 {
@@ -72,16 +179,20 @@
 }
 .Faq-section h2
 {
+    font-size: 48px;
+    font-weight: 400;
     margin: 0px 150px;
 }
 .partners-2
 {
-    background-image: url('../../../assets/imgs/partner_bg_1.png');
     width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 500px;
+}
+.partners-2 h2
+{
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0px 150px;
 }
 .partners-2
 {

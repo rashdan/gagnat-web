@@ -18,12 +18,22 @@
 {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     width: 80%;
     margin: 100px 220px;
 }
 .gag-blog-head-1 h2
 {
-    font-size: 30px;
+    font-size: 64px;
+    width: 30%;
+}
+.gag-blog-dash-head
+{
+    margin-top: 20px;
+    height: 10px;
+    width: 220px;
+    background-color: #629479;
+    
 }
 .blog-section
 {
@@ -92,4 +102,56 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.email-login
+{
+    background-image: url('../../../assets/imgs/login.png');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email-login h3
+{
+    font-size: 48px;
+    font-weight: 400;
+}
+.email-login p
+{
+    font-size: 20px;
+}
+.email-login input
+{
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    margin: 20px 0;
+    border: none;
+}
+.btn-skika
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    background: transparent;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #4F341F;
+    margin: 10px 0;
+}
+.email-login button
+{
+    width: 94%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4F341F;
+    color: #fff;
 }

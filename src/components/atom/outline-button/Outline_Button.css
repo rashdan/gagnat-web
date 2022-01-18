@@ -11,11 +11,11 @@
     border: 2px solid #629479;
     margin: 10px 5px;
     border-radius: 5px;
-    width: 155px;
-    padding: 8px;
+    width: 220px;
+    height: 45px;
     color: #212121;
-    font-weight: 700;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .outline-btn button:hover
 {

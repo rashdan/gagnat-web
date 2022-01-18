@@ -17,33 +17,50 @@
 {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 70%;
     margin: 100px 220px;
 }
-.contact-section-1 h2
-{
-    font-size: 30px;
-}
+
 .contact-info-1
 {
-    margin: 30px 0;
+    width: 100%;
     display: flex;
+}
+.head-contact-section
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.head-contact-section h2
+{
+    font-size: 60px;
+}
+.contact-us-dash-line
+{
+
+    width: 200px;
+    height: 10px;
+    background-color: #629479;
 }
 .info-1
 {
+    margin: 0 15%;
     text-align: right;
-    margin: -60px 350px;
-    width: 60%;
+    width: 40%;
+    justify-content: center;
     display: flex;
     flex-direction: column;
 }
 .info-1 h3
 {
- font-size: 50px;
+ font-size: 60px;
 }
 .info-1 h5
 {
-    font-size: 28px;
+    font-size: 36px;
+    font-weight: 300;
 }
 .behaviour
 {
@@ -54,7 +71,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 600px;
+}
+.behaviour> h3
+{
+    font-size: 34px;
+}
+.behaviour> p
+{
+    font-size: 20px;
 }
 .behaviour-profiles
 {
@@ -62,8 +87,8 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 230px;
-    width: 80%;
+    height: 350px;
+    width: 100%;
 }
 .profile-1
 {
@@ -72,20 +97,21 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 200px;
+    width: 320px;
     margin: 0 50px;
-    height: 180px;
+    height: 320px;
 }
 .profile-1 p
 {
     text-align: center;
+    font-size: 20px;
     margin: 10px 0;
     width: 70%;
 }
 .contact-box-1
 {
-    height: 80px;
-    width: 80px;
+    height: 180px;
+    width: 180px;
     background-color: #C4C4C4;
 }
 .profile-1 p span

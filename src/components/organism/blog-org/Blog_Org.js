@@ -13,7 +13,8 @@ const Blog_Org = () => {
                     <Navbar />
                 </div>
                 <div className="gag-blog-head-1">
-                    <h2>Gagnat Blogg</h2>          
+                    <h2>Gagnat Blogg</h2>
+                    <div className="gag-blog-dash-head"></div>        
                 </div>
             </div>
             <div className="blog-section">
@@ -39,6 +40,14 @@ const Blog_Org = () => {
                 </div>
             </div>
             <div className="blog-bg-1">
+            </div>
+            <div className='email-login'>
+                <h3>Tele2 och Botkyrka bibliotek</h3>
+                <p>av Lina Lagerbäck, 14 april 2021</p>
+                <input type="text" placeholder='Email' />
+                <div className='btn-skika'>
+                <button>skika</button>
+                </div>
             </div>
             <div className="blog-footer">
                 <Footer/>

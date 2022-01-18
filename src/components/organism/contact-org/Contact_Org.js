@@ -12,8 +12,11 @@ const Contact_Org = () => {
                     <Navbar />
                 </div>
                 <div className="contact-section-1">
-                    <h2>Kontakta Oss</h2>
                     <div className="contact-info-1">
+                        <div className="head-contact-section">
+                            <h2>Kontakta Oss</h2>
+                            <div className="contact-us-dash-line"></div>
+                        </div>
                         <div className="info-1">
                             <h3>+46 811 11 11</h3>
                             <h5>info@gagnat.se</h5>
@@ -41,7 +44,7 @@ const Contact_Org = () => {
             </div>
             <div className="contact-bg-img">
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }

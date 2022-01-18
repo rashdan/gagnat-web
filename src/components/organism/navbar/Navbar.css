@@ -57,17 +57,57 @@ navbar.nav-bar
     display: flex;
     justify-content: flex-start;
 }
-.nav-item ul li a
+ul li a
+{
+    font-weight: 500;
+    text-decoration: none;
+}
+.active_class
+{
+    border: 1px solid #212121;
+    color: grey;
+    font-weight: 800;
+    background-color: purple;
+}
+
+ /* .nav-item ul li a
 {
     text-decoration: none;
-    list-style: none;
-}
-.nav-item ul li a:hover
+    list-style: none; */
+    /* .nav-link
+    {
+        background-color: red;
+    }
+    .nav-link:hover
+    {
+        color: grey !important;
+    }
+    .main-nav-active
+    {
+        text-decoration: underline;
+        color: purple !important;
+    }  */
+/* .nav-item ul li a:hover
 {
+    text-decoration: underline;
     font-weight: 800;
     color: #222222;
 }
+.nav-item ul li a:active
+{
+    text-decoration: underline;
+    font-weight: 800;
+    color: #222222;
+} */
 
+
+
+/* .nav-item ul li a:visited
+{
+    text-decoration: underline;
+    font-weight: 800;
+    color: #222222;
+} */
 /* .wrapper
 {
     height: 100px;

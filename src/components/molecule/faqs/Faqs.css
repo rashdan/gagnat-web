@@ -21,7 +21,7 @@
 {
     border: 1px solid #222;
     border-radius: 5px;
-    background-color: #F2F1F1;
+    background: transparent;
     margin: 10px 0;
     padding: 15px;
 }
@@ -34,6 +34,8 @@
 }
 .title h5
 {
+    font-size: 24px;
+    font-weight: 300;
     margin: 10px 0;
 }
 .content
@@ -44,6 +46,8 @@
 }
 .content.show
 {
+    font-size: 18px;
+    font-weight: 300;
     height: auto;
     max-height: 500px;
     transition: all 0.5s cubic-bezier(0,1,0,1);

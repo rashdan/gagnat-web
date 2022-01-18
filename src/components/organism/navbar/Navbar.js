@@ -1,5 +1,7 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import '../../../index.css'
+import './Navbar.css'
+import { NavLink } from 'react-router-dom'
 import Main_Logo from '../../../assets/logo/type_logo.png'
 
 
@@ -9,18 +11,52 @@ const Navbar = () => {
     return (
         <>
             {/* <img src={Bg_Img} className="inner-bg-img" alt="" /> */}
-            <navbar className="nav-bar">    
+            <navbar className="nav-bar">
                 <div className="nav-item">
                     <ul className="nav-primary">
-                        <li><Link to="/method">VÅR METOD</Link></li>
-                        <li><Link to="/blog">BLOG</Link></li>
+                        <li><NavLink
+                            to="/method"
+                            style={({ isActive }) => {
+                                return {
+                                    textDecoration: isActive ? 'underline' : 'none'
+                                }
+                            }}
+                        >VÅR METOD</NavLink></li>
+                        <li><NavLink
+                            end
+                            to="/blog"
+                            style={({ isActive }) => {
+                                return {
+                                    textDecoration: isActive ? 'underline' : 'none'
+                                }
+                            }}
+                            activeClassName="active_class"
+                        >BLOGG</NavLink></li>
                     </ul>
-                    <Link to="/">
+                    <NavLink end to="/">
                         <img src={Main_Logo} alt="" />
-                    </Link>
+                    </NavLink>
                     <ul className="nav-secondary">
-                        <li><Link to="/contact">KONTAKT</Link></li>
-                        <li><Link to="/about">OM OSS</Link></li>
+                        <li><NavLink
+                            end
+                            to="/contact"
+                            style={({ isActive }) => {
+                                return {
+                                    textDecoration: isActive ? 'underline' : 'none'
+                                }
+                            }}
+                            activeClassName="active_class"
+                        >KONTAKT</NavLink></li>
+                        <li><NavLink
+                            end
+                            to="/about"
+                            style={({ isActive }) => {
+                                return {
+                                    textDecoration: isActive ? 'underline' : 'none'
+                                }
+                            }}
+                            activeClassName="active_class"
+                        >OM OSS</NavLink></li>
                     </ul>
                 </div>
 

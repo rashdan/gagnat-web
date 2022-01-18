@@ -1,11 +1,8 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import { Routes, Route, } from "react-router-dom";
 
 import Home from './pages/home-page/Home'
 import './pages/home-page/Home.css'
-
-import Main_Page from './components/organism/main-page/Main_Page'
-import './components/organism/main-page/Main_Page.css'
 
 import Method from './pages/methods/Method'
 import './pages/methods/Method.css'
@@ -25,7 +22,6 @@ import './components/molecule/faqs/Faqs.css'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/method" element={<Method />}></Route>
@@ -33,7 +29,6 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about" element={<About />}></Route>
         </Routes>
-      </BrowserRouter>
     </div>
   );
 }

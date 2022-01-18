@@ -9,11 +9,11 @@ const Our_Method = () => {
             <div className="methods-2-1">
                 <div className="move-2-1">
                     <h4>1. Flytten Går</h4>
-                    <p>En partner ska flytta eller renovera kontoret och har dugliga möbler över som tänkt åka till tippen</p>
+                    <p>En <span>partner</span> ska flytta eller renovera kontoret och har dugliga möbler över som tänkt åka till tippen</p>
                 </div>
                 <div className="move-2-1">
                     <h4>2. Återliva Möbler</h4>
-                    <p>Skippa tippen! 300k ton möbler slängs varje år. Kontakta oss på Gagnat eller logga in på platformen
+                    <p>Skippa tippen! 300k ton möbler slängs varje år. Kontakta oss på <span>Gagnat</span> eller logga in på <span>platformen</span>
                     </p>
                 </div>
                 <div className="move-2-1">
@@ -22,7 +22,7 @@ const Our_Method = () => {
                 </div>
                 <div className="move-2-1">
                     <h4>4.Den perfekta matchen</h4>
-                    <p>Medlemmar tingar möbler via platformen och blir matchad med den partner som har möbler över </p>
+                    <p><span>Medlemmar</span> tingar möbler via platformen och blir matchad med den partner som har möbler över </p>
                 </div>
                 <div className="move-2-1">
                     <h4>5. Nya livet</h4>

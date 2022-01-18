@@ -13,6 +13,7 @@ const About_Org = () => {
                     <Navbar />
                 <div className="about-section-1">
                     <h2>Om Oss</h2>
+                    <div className="about-us-dash"></div>
                     <p>Säg hej till oss som ligger bakom Gagnat! Det är Lina, Andreas och Jonas. Tillsammans har vi flera års erfarenheter av att driva bolag som sociala- och tech-entreprenörer, jobba med impactrelaterade uppgifter, och framförallt förmedla möbler. Vi har dessutom lite tjusiga utmärkelser i bagaget. Men skalar vi av allt det där så är vi i grund och botten ett gäng snälla, öppna, nyfikna och samhällsengagerade individer.  (Bättre att lägga till en kredig merit än säga att ni är snälla)</p>
 
                     <p>Vi driver och utvecklar Gagnat för att Gagnat behövs. Med tanke på att det slängs så otroligt mycket företagsmöbler insåg vi att det finns en lucka i systemet att avveckla företagsmöbler. Gamla möbler används idag tillsammans med ny inredning. Därefter försäljning på begagnatmarknaden, och sist går det överblivna på tipp.</p>
@@ -29,6 +30,7 @@ const About_Org = () => {
             </div>
             <div className="about-content-1">
                     <h2>Nöjda partners & medlemmar</h2>
+                    <div className="about-us-partner-dash"></div>
             </div>
             <div className="about-partner-1">
                 <Feedback_Card />

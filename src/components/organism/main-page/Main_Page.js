@@ -21,6 +21,7 @@ import Navbar from '../../../components/organism/navbar/Navbar';
 import '../../../components/organism/navbar/Navbar.css'
 import Our_Method from '../../../components/organism/our-method/Our_Method';
 import '../../../components/organism/our-method/Our_Method.css'
+import './Main_Page.css'
 
 const Main_Page = () => {
     return (
@@ -34,12 +35,12 @@ const Main_Page = () => {
                     <img src={Icon_Logo} className="inner-logo-icon" alt="" />
                 </div>
                 <div className="body-type">
-                    <h2>Skippa Tippen!
+                    <h5>Skippa Tippen!
                         Välkommen till Gagnat
-                    </h2>
+                    </h5>
                     <p>Platformen för återanvändning av företagsmöbler som har ett fortsatt användarvärde</p>
                     <div className="btns">
-                        <Outline_Button title="Jag har möbler över" /><Filled_Button title="Jag vill ta emot möbler" /><Outline_Button title="Jag vill förmedla möbler" />
+                        <Outline_Button title="Jag vill förmedla möbler" /><Filled_Button title="Jag vill ta emot möbler" />
                     </div>
                 </div>
             </header>
@@ -78,14 +79,14 @@ const Main_Page = () => {
 
                 <div className="tagline">
                     <div className="container-1">
-                        <h3>THIS MUCH CO2e SAVED ALREADY:</h3>
+                        <h3>5000kg CO2e sparat genom Gangats förmedling</h3>
                     </div>
                 </div>
             </section>
 
             <div className="gag-values">
                 <div className="gag-val-content">
-                    <h2>Gagnat Values:</h2>
+                    <h2>Gagnats gyllene grunder</h2>
                     <div className="gag-circle">
                         <Circle title="SDG 4, 12, 17 läs mer" />
                         <Circle title="Sluter de cirkulära kretsloppet" />
@@ -113,28 +114,32 @@ const Main_Page = () => {
                     <img src={trash_can} alt="" />
                 </div>
                 <div className="trash-content-1">
-                    <h2>Varför vi bör återanvända</h2>
-                    <p>Hur vi än vrider och vänder på det så tjänar alla på att ni återanvänder möbler.
-                        Ni som partner tjänar på det genom reducerade tippavgifter.
-                        Klimatet tjänar på det eftersom möblernas tekniska livslängd förlängs
-                        Organisation tjänar på det genom att vända sig till återanvända möbler och inte belasta möbelproduktionen mer än nödvändigt.
-                        Låt oss hjälpas åt att omfördela resurserna, skicka in möblerna i det cirkulära kretsloppet! </p>
-                </div>
+                    <h2>Mottagarna</h2>
+                    <p>Organisationerna som ingår i vårt mottagarnätverk är skolor och
+                        utbildningsinstanser, ideella föreningar med inriktning på barn och
+                        unga, föreningar med inriktning på idrott, kultur, samhälle, miljö samt
+                        religiösa samfund.
+
+                        Vi är en värderingsstyrd organisation och ni kan lugnt luta er tillbaka
+                        och vara säkra på att era förmedlade prylar hamnar där de gör
+                        nytta. Vi tar totalt avstånd från verksamheter som uttrycker fientliga
+                        åsikter. </p>
                 </div>
                 <div className="customer-review">
-                    <h2>Nöjda partners &
-                        medlemmar</h2>
-                    {/* <div className="dash"></div> */}
-                    <div className="customer-feedback">
-                        <Feedback_Card />
-                        <Feedback_Card />
-                        <Feedback_Card />
-                    </div>
+                <h2>Nöjda partners & medlemmar</h2>
+                <div className="cust-review-dash"></div>
+                <div className="customer-feedback">
+                    <Feedback_Card />
+                    <Feedback_Card />
+                    <Feedback_Card />
                 </div>
-                <div className="footer">
-                    <Footer />
-                </div>
+            </div>
+            </div>
             
+            <div className="footer">
+                <Footer />
+            </div>
+
         </div>
     )
 }
