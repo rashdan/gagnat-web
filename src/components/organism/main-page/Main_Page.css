@@ -13,25 +13,12 @@
     flex-direction: column;
     width: 100%;
 }
-.wrapper
+
+.header-wrapper
 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-.inner-bg-img
-{
-    height: 700px;
-    width: 100%;
+   background-image: url('../../../assets/imgs/bg_img.png');
+    height: 900px;
     background-size: cover;
-    background-repeat: no-repeat;
-    z-index: -1;
-}
-.nav-main-1
-{
-    position: absolute;
-    top: 0;
 }
 .side-logo
 {

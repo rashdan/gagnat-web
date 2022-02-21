@@ -26,21 +26,25 @@ import './Main_Page.css'
 const Main_Page = () => {
     return (
         <div className='main-page'>
-            <header className="wrapper">
-                <img src={Bg_Img} className="inner-bg-img" alt="" />
-                <navbar className="nav-main-1">
+            <header className="header-wrapper">
+                <div className="nav-main-1">
                     <Navbar />
-                </navbar>
-                <div className="side-logo">
-                    <img src={Icon_Logo} className="inner-logo-icon" alt="" />
                 </div>
-                <div className="body-type">
-                    <h5>Skippa Tippen!
-                        Välkommen till Gagnat
-                    </h5>
-                    <p>Platformen för återanvändning av företagsmöbler som har ett fortsatt användarvärde</p>
-                    <div className="btns">
-                        <Outline_Button title="Jag vill förmedla möbler" /><Filled_Button title="Jag vill ta emot möbler" />
+                {/* <img src={Bg_Img} className="inner-bg-img" alt="" /> */}
+                <div className="container">
+                    <div className="split">
+                        <div className="side-logo">
+                            <img src={Icon_Logo} className="inner-logo-icon" alt="" />
+                        </div>
+                        <div className="body-type">
+                            <h5>Skippa Tippen!
+                                Välkommen till Gagnat
+                            </h5>
+                            <p>Platformen för återanvändning av företagsmöbler som har ett fortsatt användarvärde</p>
+                            <div className="btns">
+                                <Outline_Button title="Jag vill förmedla möbler" /><Filled_Button title="Jag vill ta emot möbler" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </header>
@@ -126,16 +130,16 @@ const Main_Page = () => {
                         åsikter. </p>
                 </div>
                 <div className="customer-review">
-                <h2>Nöjda partners & medlemmar</h2>
-                <div className="cust-review-dash"></div>
-                <div className="customer-feedback">
-                    <Feedback_Card />
-                    <Feedback_Card />
-                    <Feedback_Card />
+                    <h2>Nöjda partners & medlemmar</h2>
+                    <div className="cust-review-dash"></div>
+                    <div className="customer-feedback">
+                        <Feedback_Card />
+                        <Feedback_Card />
+                        <Feedback_Card />
+                    </div>
                 </div>
             </div>
-            </div>
-            
+
             <div className="footer">
                 <Footer />
             </div>
